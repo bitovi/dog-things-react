@@ -1810,6 +1810,16 @@ camelcase@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
 
+can-namespace@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/can-namespace/-/can-namespace-1.0.0.tgz#0b8fafafbb11352b9ead4222ffe3822405b43e99"
+
+can-ndjson-stream@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/can-ndjson-stream/-/can-ndjson-stream-1.0.0.tgz#ea9ee9f7427c5f47534a78c6a291d8791f153564"
+  dependencies:
+    can-namespace "^1.0.0"
+
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -6829,7 +6839,7 @@ react-dev-utils@^7.0.0:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.7.0:
+react-dom@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
   dependencies:
@@ -6896,7 +6906,7 @@ react-scripts@2.1.2:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.7.0:
+react@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
   dependencies:

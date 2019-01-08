@@ -1,0 +1,26 @@
+product-list {
+  display: block;
+}
+
+.list-of-products {
+  padding: 0;
+  list-style-type: none;
+}
+.list-of-products > li {
+  display: flex;
+  border-top: 1px solid #DDD;
+  padding-bottom: 1em;
+}
+.list-of-products > li > aside {
+  width: 218px;
+  text-align: center;
+  flex: 1;
+}
+.list-of-products > li .product-info {
+  flex: 3;
+  line-height: 1.5em;
+}
+.list-of-products .product-image {
+  max-width: 15rem;
+  max-height: 10rem;
+}
