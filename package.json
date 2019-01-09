@@ -14,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prod": "incremental build/index.html"
+    "prod": "incremental build/index.html",
+    "prod-remote": "incremental https://bitovi.github.io/dog-things-react/"
   },
   "eslintConfig": {
     "extends": "react-app"
