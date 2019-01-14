@@ -6,13 +6,16 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
+    let path = props.request ? props.request.url : window.location.pathname;
     this.state = {
-      page: window.location.pathname === "/cart" ? "cart" : "home"
+      page: path === "/cart" ? "cart" : "home",
+      ...(global.__ssrData__ || {})
     };
   }
 
   render() {
     let { page } = this.state;
+    let products = this.props.products || this.state.products;
 
     return (
       <Fragment>
@@ -38,7 +41,7 @@ class App extends Component {
 									<li>Food brands</li>
 								</ul>
 							</aside>
-							<ProductList />
+							<ProductList products={products} />
 						</section>
           )}
 

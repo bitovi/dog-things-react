@@ -6,7 +6,7 @@ class ProductList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: []
+      products: props.products || []
     };
   }
 
