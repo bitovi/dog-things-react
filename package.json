@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "prod": "incremental build/index.html",
     "prod-remote": "incremental https://bitovi.github.io/dog-things-react/",
-    "prod-static": "http-server -p 8080 build"
+    "prod-static": "http-server -p 8080 build",
+    "prod-ssr": "node lib/bootstrap.js"
   },
   "eslintConfig": {
     "extends": "react-app"
