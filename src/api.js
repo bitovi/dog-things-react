@@ -21,3 +21,10 @@ export async function getProducts(callback) {
     return json;
   }
 }
+
+export async function getCart() {
+  let res = await  fetch(`${ENDPOINT}/cart`);
+
+  let json = await res.json();
+  return json;
+}
