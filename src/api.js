@@ -1,7 +1,7 @@
 import ndjsonStream from 'can-ndjson-stream';
 
 const supportsStream = typeof global.ReadableStream !== 'undefined';
-const ENDPOINT = 'http://206.189.197.112';
+const ENDPOINT = 'https://dog-things-api.bitovi.com';
 
 export async function getProducts(callback) {
   let url = `${ENDPOINT}/product${supportsStream ? '' : '?json'}`;
