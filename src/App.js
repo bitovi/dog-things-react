@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Cart from './Cart';
 import ProductList from './ProductList';
 import './App.css';
+import appLogo from './logo-dog-things-react.svg';
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,9 @@ class App extends Component {
       <Fragment>
         <header className="App-header">
           <div className="header-left">
-          <h1>Dog Things</h1>
+            <div class="app-logo">
+              <img className="app-logo-img" src={appLogo} alt="Dog Things" />
+            </div>
           </div>
 
           <div className="header-right">
