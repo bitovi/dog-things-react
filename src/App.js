@@ -22,7 +22,7 @@ class App extends Component {
       <Fragment>
         <header className="App-header">
           <div className="header-left">
-            <div class="app-logo">
+            <div className="app-logo">
               <img className="app-logo-img" src={appLogo} alt="Dog Things" />
             </div>
           </div>

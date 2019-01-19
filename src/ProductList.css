@@ -5,22 +5,43 @@ product-list {
 .list-of-products {
   padding: 0;
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 80px;
+  flex: 1 1;
 }
 .list-of-products > li {
   display: flex;
-  border-top: 1px solid #DDD;
-  padding-bottom: 1em;
+  flex-direction: column;
+  background: white;
+  padding: 2em;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, .2);
 }
+.list-of-products > li:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, .2);
+  border-top: 8px solid var(--mainColor);
+  cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+}
+
+.list-of-products > li:hover .product-info h2 {
+  color: var(--fontColorLinks);
+}
+
 .list-of-products > li > aside {
-  width: 218px;
-  text-align: center;
-  flex: 1;
+  width: 100%;
+  height: 190px;
+  display: flex;
+  justify-content: center;
 }
 .list-of-products > li .product-info {
-  flex: 3;
   line-height: 1.5em;
 }
 .list-of-products .product-image {
-  max-width: 15rem;
-  max-height: 10rem;
+  max-height: 100%;
+}
+.list-of-products > li .product-info h2 {
+  color: var(--fontColorTitles);
 }

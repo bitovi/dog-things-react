@@ -3,8 +3,9 @@
 :root {
 --body: #F6F4ED;
 --fontColorBody: #4A4A4A;
---fontColorTitles: #000000;
+--fontColorTitles: #000;
 --fontColorLinks: #0087AC;
+
 
 /* React Theme */
 --mainColor: #0EBCEC;

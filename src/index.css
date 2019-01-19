@@ -4,6 +4,10 @@ body {
   color: var(--fontColorBody);
   margin: 0;
 }
+
+h2 {
+  font-size: 1.2em; 
+}
 header {
   background-color: var(--mainColor);
   display: flex;
@@ -53,7 +57,7 @@ header .cart-count {
   margin: 0 4rem;
 }
 .product-page .sideoptions {
-  flex: 1;
+  width: 12em;
 }
 .product-page .sideoptions h1 {
   font-family: var(--fontFamilyMedium);
