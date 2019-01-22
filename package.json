@@ -6,7 +6,6 @@
   "dependencies": {
     "@babel/preset-env": "^7.2.3",
     "can-ndjson-stream": "^1.0.0",
-    "isomorphic-fetch": "^2.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
@@ -19,7 +18,9 @@
     "prod": "incremental build/index.html",
     "prod-remote": "incremental https://bitovi.github.io/dog-things-react/",
     "prod-static": "http-server -p 8080 build",
-    "prod-ssr": "node lib/bootstrap.js"
+    "prod-ssr": "node lib/bootstrap.js",
+    "push-ghpages": "cd build && git init && git remote add origin git@github.com:bitovi/dog-things-react.git && git checkout -b gh-pages && git add -A && git commit -m site && git push -f origin gh-pages && cd ..",
+    "deploy": "npm run build && npm run push-ghpages"
   },
   "eslintConfig": {
     "extends": "react-app"
