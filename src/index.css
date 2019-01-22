@@ -55,7 +55,14 @@ header .cart-count {
 .product-page {
   display: flex;
   margin: 0 4rem;
+  
 }
+@media screen and (max-width: 580px){
+  .product-page {
+    flex-direction: column;
+  }
+}
+
 .product-page .sideoptions {
   width: 12em;
 }

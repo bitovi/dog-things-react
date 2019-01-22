@@ -1,16 +1,16 @@
 /* Colors */
 
 :root {
---body: #F6F4ED;
---fontColorBody: #4A4A4A;
---fontColorTitles: #000;
---fontColorLinks: #0087AC;
+    --body: #F6F4ED;
+    --fontColorBody: #4A4A4A;
+    --fontColorTitles: #000;
+    --fontColorLinks: #0087AC;
 
 
-/* React Theme */
---mainColor: #0EBCEC;
---mainColorLight: #20DFF7;
---mainColorDark: #007CA3;
+    /* React Theme */
+    --mainColor: #0EBCEC;
+    --mainColorLight: #20DFF7;
+    --mainColorDark: #007CA3;
 }
 
 /* Fonts */
