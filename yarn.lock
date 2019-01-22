@@ -1139,8 +1139,8 @@
     to-fast-properties "^2.0.0"
 
 "@bitovi/incremental@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bitovi/incremental/-/incremental-1.0.1.tgz#bb37f10da9fb396d1f2bc2ff41c259eec06d3a42"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@bitovi/incremental/-/incremental-1.0.2.tgz#564b182a8e74b1d73910297d275882809a5f5450"
   dependencies:
     "@sindresorhus/slugify" "^0.8.0"
     can-zone-jsdom "^2.0.1"
