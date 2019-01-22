@@ -5,6 +5,7 @@
   "homepage": ".",
   "dependencies": {
     "@babel/preset-env": "^7.2.3",
+    "@bitovi/incremental": "^1.0.0",
     "can-ndjson-stream": "^1.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
