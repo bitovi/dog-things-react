@@ -31,6 +31,8 @@ header .app-logo {
   background: white;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   position: absolute;
   top: 25px;     
@@ -51,6 +53,17 @@ header .cart-count {
   font-family: var(--fontFamilyMedium);
   font-size: 1.2em;
   font-weight: bold;
+}
+header .app-logo .logo-bone {
+  fill: var(--mainColor);
+}
+
+header .app-logo .logo-dog {
+    fill: var(--mainColor);
+}
+
+header .app-logo .logo-things {
+    fill: var(--mainColorDark);
 }
 .product-page {
   display: flex;
