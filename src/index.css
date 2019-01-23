@@ -31,11 +31,27 @@ header .app-logo {
   background: white;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   position: absolute;
   top: 25px;     
   border-top: solid var(--mainColorDark) 5px;
 }
+
+
+header .app-logo .logo-bone {
+  fill: var(--mainColor);
+}
+
+header .app-logo .logo-dog {
+    fill: var(--mainColor);
+}
+
+header .app-logo .logo-things {
+    fill: var(--mainColorDark);
+}
+
 header a.cart-link {
   background-color: white;
   padding: 0.5em 1em;
