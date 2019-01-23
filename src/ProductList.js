@@ -23,7 +23,7 @@ class ProductList extends Component {
     let { products } = this.state;
 
     return (
-      <ul className="list-of-products">
+      <ul className="list-of-products horizontal">
         {products.map(product => (
           <li id={`product-${product.id}`} key={product.id}>
             <aside>
