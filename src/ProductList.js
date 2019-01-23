@@ -31,9 +31,7 @@ class ProductList extends Component {
             </aside>
 
             <div className="product-info">
-              <header>
-                <h1>{product.name}</h1>
-              </header>
+              <h2>{product.name}</h2>
               <div className="product-desc">
                 {product.desc}
               </div>
