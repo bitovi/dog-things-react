@@ -42,6 +42,10 @@ class App extends Component {
 								<ul>
 									<li>Bones</li>
 									<li>Food brands</li>
+                  <li>Leashes</li>
+                  <li>Beds</li>
+                  <li>Treats</li>
+                  <li>Crates</li>
 								</ul>
 							</aside>
 							<ProductList products={products} />
