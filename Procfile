@@ -1,1 +1,1 @@
-web: node --exp-query-static node_modules/.bin/velocirender build/index.html
+web: node node_modules/.bin/velocirender --exp-query-static build/index.html
