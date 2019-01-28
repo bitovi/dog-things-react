@@ -1139,8 +1139,8 @@
     to-fast-properties "^2.0.0"
 
 "@bitovi/velocirender@^1.1.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@bitovi/velocirender/-/velocirender-1.2.0.tgz#13065b556ad88cc4965fab0a1917cb033192be38"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@bitovi/velocirender/-/velocirender-1.2.1.tgz#c5bfe8b0e491a077de700e2040521503c120d938"
   dependencies:
     "@sindresorhus/slugify" "^0.8.0"
     can-zone "^1.0.0"
