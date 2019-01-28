@@ -1,1 +1,1 @@
-web: node node_modules/.bin/incremental build/index.html
+web: node node_modules/.bin/velocirender build/index.html
