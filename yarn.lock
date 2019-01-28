@@ -1138,11 +1138,12 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@bitovi/incremental@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@bitovi/incremental/-/incremental-1.0.2.tgz#564b182a8e74b1d73910297d275882809a5f5450"
+"@bitovi/velocirender@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bitovi/velocirender/-/velocirender-1.1.0.tgz#8a17643536d90adb09b460b945dfaaf1c4ad71b8"
   dependencies:
     "@sindresorhus/slugify" "^0.8.0"
+    can-zone "^1.0.0"
     can-zone-jsdom "^2.0.1"
     done-serve "^3.2.0"
     done-ssr "^3.2.0"
@@ -1150,6 +1151,8 @@
     mime "^2.4.0"
     mkdirp "^0.5.1"
     node-fetch "^2.3.0"
+    quick-lru "^2.0.0"
+    useragent "^2.3.0"
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -3341,14 +3344,14 @@ done-mutation-observer@^1.0.1:
     can-child-nodes "^1.2.0"
 
 done-mutation@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/done-mutation/-/done-mutation-3.0.0.tgz#4c1ba0a02d2ba548b87cf063fda3aee25f814bfd"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/done-mutation/-/done-mutation-3.1.0.tgz#d8d700bd413d9369f5f59610db709058537a96d5"
   dependencies:
     utf8 "^3.0.0"
 
 done-serve@^3.2.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/done-serve/-/done-serve-3.3.0.tgz#7a271a348238c337e269a3159b39833b2cf69bd8"
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/done-serve/-/done-serve-3.3.1.tgz#4951f9258c56dc650b7251031d560a0015592262"
   dependencies:
     chalk "^2.4.1"
     commander "^2.8.1"
@@ -4906,8 +4909,8 @@ ir-clone@^1.2.1:
   resolved "https://registry.yarnpkg.com/ir-clone/-/ir-clone-1.2.1.tgz#e88e62de87aeb5772dfa104a324308e4aeadae91"
 
 ir-reattach@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ir-reattach/-/ir-reattach-5.0.0.tgz#d09f74bdc021c0a1c33e401cec8a3f48f973f54c"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ir-reattach/-/ir-reattach-5.0.1.tgz#2d0e941e188e0f3bac12e72ab3596bfcfde98b33"
 
 is-absolute-url@^2.0.0:
   version "2.1.0"
@@ -7737,6 +7740,10 @@ querystringify@^2.0.0:
 quick-lru@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
+
+quick-lru@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-2.0.0.tgz#32b017b28d1784631c8ab0a1ed2978e094dbe181"
 
 raf@3.4.0:
   version "3.4.0"
