@@ -13,6 +13,7 @@ class ProductList extends Component {
   componentDidMount() {
     getProducts(item => {
       let { products } = this.state;
+
       this.setState({
         products: products.concat([item])
       });

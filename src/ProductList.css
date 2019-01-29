@@ -69,4 +69,36 @@ product-list {
 }
 .list-of-products > li .product-info h2 {
   color: var(--fontColorTitles);
+  
+}
+
+/* Smaller sizes */
+body.small .list-of-products {
+  display: block;
+  margin: -20px;
+}
+
+body.small .list-of-products > li {
+  margin-bottom: 10px;
+}
+
+body.small .list-of-products > li .product-info h2 {
+  margin: 0;
+  font-size: 110%;
+}
+
+body.small .list-of-products.list-of-products.horizontal > li > aside {
+  height: 30px;
+}
+
+body.small .list-of-products > li .product-info {
+  font-size: 85%;
+}
+
+body.small .list-of-products.horizontal > li > .product-info {
+  height: 40px;
+}
+
+body.small .list-of-products.horizontal > li {
+  padding: 0.2em;
 }
