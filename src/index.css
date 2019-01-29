@@ -38,6 +38,9 @@ header .app-logo {
   top: 25px;     
   border-top: solid var(--mainColorDark) 5px;
 }
+header .app-logo svg {
+  visibility: visible;
+}
 header a.cart-link {
   background-color: white;
   padding: 0.5em 1em;
