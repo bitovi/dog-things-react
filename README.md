@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img width="1321" alt="The Dog Things example app for React" src="https://user-images.githubusercontent.com/361671/51995733-41830f00-2481-11e9-8dec-4bd7bd215dd5.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
