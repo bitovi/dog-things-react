@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prod": "velocirender build/index.html",
+    "prod-slow": "velocirender --throttle 100000 build/index.html",
     "prod-remote": "velocirender https://bitovi.github.io/dog-things-react/",
     "prod-static": "http-server -p 8080 build",
     "prod-ssr": "node lib/bootstrap.js",

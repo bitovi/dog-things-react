@@ -14,9 +14,18 @@ class ProductList extends Component {
     getProducts(item => {
       let { products } = this.state;
 
+      if(!products.length && window.parent) {
+        window.parent.postMessage("first-item", "*");
+      }
+
       this.setState({
         products: products.concat([item])
       });
+    })
+    .then(() => {
+      if(window.parent) {
+        window.parent.postMessage("last-item", "*");
+      }
     })
   }
 
