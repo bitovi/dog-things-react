@@ -1,1 +1,1 @@
-web: node node_modules/.bin/velocirender --exp-query-static --throttle 200000 build/index.html
+web: node node_modules/.bin/velocirender --exp-query-static --throttle 100000 build/index.html
